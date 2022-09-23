@@ -4,14 +4,14 @@ Windows persistence toolkit written in C#. **For detailed usage information on e
 Author - Brett Hawkins (@h4wkst3r)
 
 # Release
-* Public version 1.0.1 of SharPersist can be found in the [Releases](https://github.com/fireeye/SharPersist/releases) section
+* Public version 1.1 of SharPersist can be found in the [Releases](https://github.com/h4wkst3r/SharPersist/releases) section
 
 
 # Installation/Building
 
 ## Pre-Compiled 
 
-* Use the pre-compiled binary in the [Releases](https://github.com/fireeye/SharPersist/releases) section
+* Use the pre-compiled binary in the [Releases](https://github.com/h4wkst3r/SharPersist/releases) section
 
 ## Building Yourself
 
@@ -34,12 +34,9 @@ The below 3rd party libraries are used in this project.
 * Install the Costura.Fody NuGet package. The older version of Costura.Fody (3.3.3) is needed, so that you do not need Visual Studio 2019.
   * `Install-Package Costura.Fody -Version 3.3.3`
 * Install the TaskScheduler package
-  * `Install-Package TaskScheduler -Version 2.8.11`
+  * `Install-Package TaskScheduler`
 * You can now build the project yourself!
 
-* Merge The Dependencies into a Standalone binary using [ILMerge](https://github.com/dotnet/ILMerge)
-
-  * `ILMerge.exe" "C:\SharPersist\SharPersist\bin\Release\SharPersist.exe" /out:"C:\SharPersist_Standalone.exe"     "C:\SharPersist\SharPersist\bin\Release\Microsoft.Win32.TaskScheduler.dll"`
 
 # Arguments/Options
 
