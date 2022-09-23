@@ -1,3 +1,6 @@
+--- v1.1 ---
+Additional options added to scheduled task persistence for more granularity when running every X hours, X minutes or X days
+
 --- v1.0.1 ---
 Service persistence bug fixes
 
