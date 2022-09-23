@@ -1,5 +1,5 @@
 # SharPersist
-Windows persistence toolkit written in C#. **For detailed usage information on each technique, see the [Wiki](https://github.com/fireeye/SharPersist/wiki).**
+Windows persistence toolkit written in C#. **For detailed usage information on each technique, see the [Wiki](https://github.com/h4wkst3r/SharPersist/wiki).**
 
 Author - Brett Hawkins (@h4wkst3r)
 
